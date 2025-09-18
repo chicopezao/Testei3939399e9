@@ -87,7 +87,7 @@ app.get('/lista-de-desejos', async (req, res) => {
     const columns = 3;
     const itemSize = 180;
     const padding = 30;
-    const startX = 700; // ⬅️ alinhado à esquerda
+    const startX = 550; // ⬅️ alinhado à esquerda
     const startY = (canvasH - Math.ceil(validBuffers.length / columns) * (itemSize + padding)) / 2;
 
     for (let i = 0; i < validBuffers.length; i++) {
