@@ -46,7 +46,7 @@ app.get('/demo', async (req, res) => {
         const itemSize = 180;
         const padding = 30;
         
-        const startX = 100; 
+        const startX = 50; 
         const startY = (canvasH - Math.ceil(9 / columns) * (itemSize + padding)) / 2 + 40;
 
         const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#98D8C8', '#F7DC6F', '#BB8FCE'];
@@ -157,7 +157,7 @@ app.get('/lista-de-desejos', async (req, res) => {
         const padding = 30;   // Espaçamento entre os itens
         
         // Ponto inicial da grade, deslocado para a direita
-        const startX = 100; 
+        const startX = 10; 
         const startY = (canvasH - Math.ceil(validBuffers.length / columns) * (itemSize + padding)) / 2 + 40;
 
         for (let i = 0; i < validBuffers.length; i++) {
